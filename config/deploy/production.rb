@@ -33,6 +33,7 @@ role :app, %w{deploy@46.101.102.211}
 # Feel free to add new variables to customise your setup.
 
 set :deploy_to, "/var/www/#{fetch(:application)}"
+# set :log_level, ENV['LOG_LEVEL']
 set :format, :pretty
 
 
